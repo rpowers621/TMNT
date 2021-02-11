@@ -1,0 +1,134 @@
+body {
+   background-image: url(background.png);
+   font-size: 8pt;
+   font-family: Verdana;
+   margin: 0;
+
+}
+
+.banner {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  background-image: url(bannerbackground.png);
+
+}
+
+.header {
+  font-size: 24pt;
+  font-weight: bold;
+  font-family: Tahoma;
+  text-align: center;
+  margin: 2%;
+}
+
+.flexbox {
+  display: flex;
+  width: 800px;
+  border: 4px solid gray;
+  margin-left: auto;
+  margin-right: auto;
+  flex-wrap: wrap;
+}
+
+.lcol {
+  display: flex;
+  width: 550px;
+  height: 96%;
+  position: relative;
+
+}
+
+.r-header {
+  background-image: url(rottenbackground.png);
+  position: absolute;
+  width: 550px;
+
+}
+
+.p32 {
+  position: absolute;
+  bottom: -10px;
+  left: 105px;
+  color: white;
+ }
+
+ span {
+   color: red;
+   font-size: 48pt;
+   font-weight: bold;
+ }
+
+.l-lcol {
+   display: flex;
+   width: 50%;
+   flex-direction: column;
+   float: left;
+   margin-top: 17%;
+
+ }
+.r-lcol {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  float:right;
+  margin-top: 17%;
+}
+.rcol {
+  width: 250px;
+  height: 96%;
+
+}
+.comment {
+  background-color: #E1D697;
+  border: 2px solid gray;
+  padding-left: 6px;
+  padding-right: 2px;
+  margin: 8px;
+  font-size: 8pt;
+  font-weight: bold;
+}
+
+.rotten {
+  float:left;
+  padding-top: 7px;
+  padding-right: 5px;
+}
+.critic {
+  width: 40px;
+  margin-left: 5px;
+  float: left;
+  margin-bottom: 1em;
+}
+span2 {
+  font-style: italic;
+}
+.rcol {
+  width: 250px;
+  background-color: #A2B964;
+  font-size: 8pt;
+  font-family: Arial;
+}
+dt{
+  margin-bottom: 2px;;
+  margin-top: 2em;
+}
+.poster {
+  position: relative;
+}
+.overview {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.footer {
+  background-color: #A2B964;
+  width: 800px;
+  height: 3%;
+  text-align: center;
+  bottom:0;
+}
+
+.flexbox2 {
+  float: right;
+  margin-top: -6%;
+}
